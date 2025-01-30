@@ -47,10 +47,10 @@
     --jokes-gradient: linear-gradient(135deg, #C02425, #F0CB35);
     --clock-gradient: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
     
-    --nextjs-gradient: linear-gradient(135deg, #000000, #333333);
+    --nextjs-gradient: linear-gradient(135deg, #000000, #404040);
     --nuxtjs-gradient: linear-gradient(135deg, #00DC82, #00BC6F);
-    --angular-pro-gradient: linear-gradient(135deg, #c31432, #240b36);
-    --svelte-pro-gradient: linear-gradient(135deg, #f83600, #f9d423);
+    --angular-pro-gradient: linear-gradient(135deg, #DD0031, #C3002F);
+    --svelte-pro-gradient: linear-gradient(135deg, #FF3E00, #FF8B00);
 }
 
 body {
@@ -224,10 +224,27 @@ main {
 .project-button[onclick*="jokes"] { background: var(--jokes-gradient); }
 .project-button[onclick*="clock-six"] { background: var(--clock-gradient); }
 
-.project-button[onclick*="next-js"] { background: var(--nextjs-gradient); }
-.project-button[onclick*="nuxt-js"] { background: var(--nuxtjs-gradient); }
-.project-button[onclick*="angular-project-tan"] { background: var(--angular-pro-gradient); }
-.project-button[onclick*="svelte-project-kappa"] { background: var(--svelte-pro-gradient); }
+.project-button[onclick*="next-js"] { 
+    background: linear-gradient(135deg, #000000, #404040);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-button[onclick*="nuxt-js"] { 
+    background: linear-gradient(135deg, #00DC82, #00BC6F);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #003c23;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.project-button[onclick*="angular-project-tan"] { 
+    background: linear-gradient(135deg, #DD0031, #C3002F);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-button[onclick*="svelte-project-kappa"] { 
+    background: linear-gradient(135deg, #FF3E00, #FF8B00);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
 .project-button::before {
     content: '';
