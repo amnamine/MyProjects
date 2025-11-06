@@ -13,52 +13,206 @@
 <body>
     <header>
         <h1>My Project Showcase</h1>
-        <p class="subtitle">A collection of my web development journey</p>
+        <p class="subtitle">Curated, clean, and easy to explore</p>
     </header>
 
     <main>
-        <section class="projects">
-            <!-- Personal & Main Projects -->
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/MyPortfolio/')">Portfolio</button>
-            <button class="project-button" onclick="openProject('https://github.com/amnamine')">GitHub Profile</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/TodooList/')">Todo List</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/ElegantClock/')">Elegant Clock</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/MyProjects/')">All Projects</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/MyMobileApps/')">Mobile Apps</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/MyGames/')">Games Collection</button>
+        <section class="section section--featured">
+            <h2 class="section-title">Featured</h2>
+            <div class="cards">
+                <a class="card" href="https://amnamine.github.io/MyPortfolio/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🗂️</span>
+                    <span class="card-title">Portfolio</span>
+                    <span class="card-meta">Personal showcase</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://github.com/amnamine" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">💻</span>
+                    <span class="card-title">GitHub Profile</span>
+                    <span class="card-meta">Repos and activity</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/MyProjects/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">📚</span>
+                    <span class="card-title">All Projects</span>
+                    <span class="card-meta">Full collection</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
+        </section>
 
-            <!-- Framework Projects -->
-            <button class="project-button" onclick="openProject('https://next-js-six-wheat-39.vercel.app/')">Next.js Starter</button>
-            <button class="project-button" onclick="openProject('https://angular-project-tan.vercel.app/')">Angular App</button>
-            <button class="project-button" onclick="openProject('https://nuxt-js-sand.vercel.app/')">Nuxt Welcome</button>
-            <button class="project-button" onclick="openProject('https://svelte-project-kappa.vercel.app/')">Svelte App</button>
+        <section class="section section--apps">
+            <h2 class="section-title">Apps</h2>
+            <div class="cards">
+                <a class="card" href="https://amnamine.github.io/TodooList/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">✅</span>
+                    <span class="card-title">Todo List</span>
+                    <span class="card-meta">Task manager</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/ElegantClock/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">⏰</span>
+                    <span class="card-title">Elegant Clock</span>
+                    <span class="card-meta">Stylish timepiece</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/MyMobileApps/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">📱</span>
+                    <span class="card-title">Mobile Apps</span>
+                    <span class="card-meta">App gallery</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/Simple-Weather-App/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">☁️</span>
+                    <span class="card-title">Weather App</span>
+                    <span class="card-meta">Simple forecast</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://weather-app-sigma-three-96.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🌦️</span>
+                    <span class="card-title">Weather App V2</span>
+                    <span class="card-meta">Enhanced forecast</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://note-taking-app-kappa-self.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">📝</span>
+                    <span class="card-title">Note Taking App</span>
+                    <span class="card-meta">Notes and ideas</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/BMI-Calculator/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">⚕️</span>
+                    <span class="card-title">BMI Calculator</span>
+                    <span class="card-meta">Health tool</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://amnamine.github.io/Simple-Calculator/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">➗</span>
+                    <span class="card-title">Simple Calculator</span>
+                    <span class="card-meta">Basic math</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
+        </section>
 
-            <!-- Web Applications -->
-            <button class="project-button" onclick="openProject('https://cscclub-mu.vercel.app/')">CSC Club</button>
-            <button class="project-button" onclick="openProject('https://drivini.vercel.app/')">Drivini</button>
-            <button class="project-button" onclick="openProject('https://cscc-website.vercel.app/')">CSCC Website</button>
-            <button class="project-button" onclick="openProject('https://cscc-ecopies.vercel.app/')">CSCC Ecopies</button>
-            
-            <!-- Tools & Calculators -->
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/BMI-Calculator/')">BMI Calculator</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/Simple-Calculator/')">Simple Calculator</button>
-            <button class="project-button" onclick="openProject('https://amnamine.github.io/Simple-Weather-App/')">Weather App</button>
-            <button class="project-button" onclick="openProject('https://weather-app-sigma-three-96.vercel.app/')">Weather App V2</button>
-            <button class="project-button" onclick="openProject('https://note-taking-app-kappa-self.vercel.app/')">Note Taking App</button>
+        <section class="section section--frameworks">
+            <h2 class="section-title">Frameworks</h2>
+            <div class="cards">
+                <a class="card" href="https://next-js-six-wheat-39.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">⚛️</span>
+                    <span class="card-title">Next.js Starter</span>
+                    <span class="card-meta">React framework</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://angular-project-tan.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🅰️</span>
+                    <span class="card-title">Angular App</span>
+                    <span class="card-meta">Angular project</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://nuxt-js-sand.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🟢</span>
+                    <span class="card-title">Nuxt Welcome</span>
+                    <span class="card-meta">Vue framework</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://svelte-project-kappa.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🔶</span>
+                    <span class="card-title">Svelte App</span>
+                    <span class="card-meta">Svelte project</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
+        </section>
 
-            <!-- Games -->
-            <button class="project-button" onclick="openProject('https://dodge-the-creeps-seven.vercel.app/')">Dodge The Creeps</button>
-            <button class="project-button" onclick="openProject('https://snake-game-mocha-pi.vercel.app/')">Snake Game</button>
-            <button class="project-button" onclick="openProject('https://ping-pong-psi-nine.vercel.app/')">Ping Pong</button>
-            <button class="project-button" onclick="openProject('https://tic-tac-toe-game-ten-weld.vercel.app/')">Tic Tac Toe</button>
+        <section class="section section--websites">
+            <h2 class="section-title">Websites</h2>
+            <div class="cards">
+                <a class="card" href="https://cscclub-mu.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🌐</span>
+                    <span class="card-title">CSC Club</span>
+                    <span class="card-meta">Community site</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://drivini.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🚗</span>
+                    <span class="card-title">Drivini</span>
+                    <span class="card-meta">Web app</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://cscc-website.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🏫</span>
+                    <span class="card-title">CSCC Website</span>
+                    <span class="card-meta">Organization site</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://cscc-ecopies.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">📄</span>
+                    <span class="card-title">CSCC Ecopies</span>
+                    <span class="card-meta">Resources</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
+        </section>
 
-            <!-- Fun Projects -->
-            <button class="project-button" onclick="openProject('https://coin-flip-gold.vercel.app/')">Coin Flip</button>
-            <button class="project-button" onclick="openProject('https://dice-roll-plum.vercel.app/')">Dice Roll</button>
-            <button class="project-button" onclick="openProject('https://jokes-generator-sigma.vercel.app/')">Jokes Generator</button>
-            <button class="project-button" onclick="openProject('https://clock-six-lime.vercel.app/')">Clock App</button>
-            
-            <!-- Advanced Framework Projects -->
+        <section class="section section--games">
+            <h2 class="section-title">Games</h2>
+            <div class="cards">
+                <a class="card" href="https://dodge-the-creeps-seven.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">👾</span>
+                    <span class="card-title">Dodge The Creeps</span>
+                    <span class="card-meta">Arcade</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://snake-game-mocha-pi.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🐍</span>
+                    <span class="card-title">Snake Game</span>
+                    <span class="card-meta">Classic</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://ping-pong-psi-nine.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🏓</span>
+                    <span class="card-title">Ping Pong</span>
+                    <span class="card-meta">Paddle game</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://tic-tac-toe-game-ten-weld.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">❌⭕</span>
+                    <span class="card-title">Tic Tac Toe</span>
+                    <span class="card-meta">Strategy</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section section--fun">
+            <h2 class="section-title">Fun</h2>
+            <div class="cards">
+                <a class="card" href="https://coin-flip-gold.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🪙</span>
+                    <span class="card-title">Coin Flip</span>
+                    <span class="card-meta">Randomizer</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://dice-roll-plum.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">🎲</span>
+                    <span class="card-title">Dice Roll</span>
+                    <span class="card-meta">Randomizer</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://jokes-generator-sigma.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">😂</span>
+                    <span class="card-title">Jokes Generator</span>
+                    <span class="card-meta">Fun utility</span>
+                    <span class="card-cta">Open</span>
+                </a>
+                <a class="card" href="https://clock-six-lime.vercel.app/" target="_blank" rel="noopener">
+                    <span class="card-icon" aria-hidden="true">⏱️</span>
+                    <span class="card-title">Clock App</span>
+                    <span class="card-meta">Time utility</span>
+                    <span class="card-cta">Open</span>
+                </a>
+            </div>
         </section>
     </main>
 
